@@ -11,11 +11,11 @@
 		<nav>
     		<ul>
         		<li><a href="/">Home</a></li>
-        		<li><a href="/research">Research</a></li>
-	        	<li><a href="/about">About</a></li>
+        		<li><a href="/research/research.html">Research</a></li>
+	        	<li><a href="/about/about.html">About</a></li>
         		<li><a href="/cv/McCleery-CV_2018-01-15.pdf">CV</a></li>
         		<li><a href="/contact/contact.html">Contact Me</a></li>
-    		</u
+    		</ul>
 		</nav>
 		<div class="container">
 			<img src="/assets/img/headshot.jpg" alt="W. Tyler McCleery">
