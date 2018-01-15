@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>W. Tyler McCleery, Ph.D.</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<!-- Rescale page to fit any device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+        		<li><a href="/research/research.html">Research</a></li>
+	        	<li><a href="/about/about.html">About</a></li>
+        		<li><a href="/cv/McCleery-CV_2018-01-15.pdf">CV</a></li>
+        		<li><a href="/contact/contact.html">Contact Me</a></li>
+    		</u
+		</nav>
+		<div class="container">
+			<img src="/assets/img/headshot.jpg" alt="W. Tyler McCleery">
+    		<div class="blurb">
+			<h1>Research</h1>
+			<h2>Biomechanics of <em>Drosophila</em> Embryogenesis </h2>
+				<p> Information Coming Soon
+				</p>
+			<h2>Experimental Microenvironment Testing Plant Root Branching in Complex Soil</h2>
+				<p> Information Coming Soon
+				</p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:mccleery@southalabama.edu">email</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
