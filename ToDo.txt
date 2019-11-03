@@ -1,0 +1,10 @@
+To Do
+
+- Create a data science/analysis example
+  - give an explanation FEM paper - detailing problem, metrics, constraints, results/what we learned
+  
+- Create an optimization/energy-minimization example
+  - toy model of cellular potts 
+    - just use energy min to spread points and make random cell sheet
+    - assign different cell types
+    - give very basic energy minimization function (don't worry about forces)
