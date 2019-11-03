@@ -1,1 +1,77 @@
-Objective: Create a mesh of points that are spread according to an energy minimization function. Points that are closer to each other will have a higher energy cost. This will encourage points to spread with Monte Carlo-like updating.
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>W. Tyler McCleery, Ph.D.</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<!-- Rescale page to fit any device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+        		<li><a href="/pages/research/research.html">Research</a></li>
+	        	<!-- <li><a href="/pages/about/about.html">About</a></li> -->
+        		<li><a href="/pages/cv/McCleery-Resume.pdf">Resume</a></li>
+        		<li><a href="/pages/contact/contact.html">Contact Me</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		<div class="blurb">
+			<h1>Optimization</h1>
+            
+        <p> The following code is written in Mathematica, v. 12.0 </p>
+      <h2>Objective</h2>
+        <p>Create a mesh of points that are spread according to an energy minimization function. Points that are closer to each other will have a higher energy cost. This will encourage points to spread with Monte Carlo-like updating. </p>
+            
+			<h3>Generate random 2D spread of points</h3>
+        <p style = "font-face:Courier;font-size:16px;font-color:blue;">
+         nCells = 20;
+verbose = True;
+boxSize = 20;
+pts = RandomReal[{-boxSize/2, boxSize/2}, {nCells, 2}];
+ptsNew = pts;
+          </p>
+          
+          <img src="/assets/img/1T102040_t0_ChiChi_small.PNG" alt="2.5D Finite Element Model of Drosophila Embryo" style="max-width:600px">			
+				
+			
+		 <iframe width="560" height="315" src="https://www.youtube.com/embed/sfzq1mc8OoQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>See our article in <a href="https://www.cell.com/biophysj/fulltext/S0006-3495(19)30443-6">Biophysical Journal</a></p>
+            <h2>Calcium signaling in <em>Drosophila</em> Wound Healing </h2>
+				<p> When the epidermis is injured, undamaged cells surrounding
+                the wound must coordinate their healing effort. Cells can
+                communicate via calcium signaling, which is actively channeled
+                away from the wound. In the <em>Drosophila</em> pupal notum,
+                we have found this signaling occurs in a
+                series of waves expanding and flaring several cells away. This
+                signal then coordinates cell migration to fill the wounded region.
+                </p>
+                <p>
+                I am modeling this process using a chemo-mechanical vertex model.
+                Each cell in the model is represented as a 2D polygon with
+                mechanically active components to allow migration. The mechanical
+                forces are activated by chemical signaling among cells. Using this
+                model, I hope to learn how cell communication coordinates cell
+                migration.
+				</p>
+			<h2>Experimental Microenvironment Testing Plant Root Branching in Complex Soil </h2>
+				<img src="/assets/img/PlantInDevice_Small.png" alt="Arabidopsis Plant Growing in Microenvironment" style="max-width:300px">
+                <p> In Arabidopsis, cells coordinate to pattern root architecture, strategically investing resources for growth to conserve energy while optimizing nutrient acquisition. Root cells communicate with neighbors through auxin hormone signaling, sharing information about the changing soil environment. Global root architecture is hypothesized to be the emergent behavior of locally coupled non-linear feedback systems between cells responding to hormone signaling. We are testing this hypothesis both computationally with a mathematical hormone flux model and experimental using a microenvironment device. The microenvironment analyzes hormone response to precision-controlled nutrient delivery in microfluidic devices.
+				</p>
+                <p>Read my review in <a href="https://www.sciencedirect.com/science/article/pii/S0955067417300315"><em>Current Opinion in Cell Biology</em></a></p>
+				
+			<p> </p>
+			<p>Please contact Dr. McCleery at the e-mail link below to learn more information.</p>
+        
+        </div><!-- /.blurb -->
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:tyler.mccleery@vanderbilt.edu">email</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
+
