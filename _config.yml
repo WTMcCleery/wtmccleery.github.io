@@ -4,3 +4,17 @@ defaults:
       path: "assets/img"
     values:
       image: true
+
+#Jekyll Configuration
+name: W. Tyler McCleery
+description: personal website of W. Tyler McCleery, displaying research, interests, code samples, and resume
+url: "https://wtmccleery.github.io"
+markdown: GFM
+
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - pages/sampleCode/optimization-md.md
